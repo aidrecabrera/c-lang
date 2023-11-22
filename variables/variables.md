@@ -10,7 +10,7 @@ The basic structure of variable creation involves specifying the type followed b
 
 Don't worry; we'll delve into each aspect in detail. We'll cover the creation, naming, assignment, modification, and conversion of variables.
 
-As a valuable tip, you can efficiently create multiple variables of the same type simultaneously by listing them with commas between their names, like "type variable1, variable_2, variable_3, variable4."
+As a valuable tip, you can efficiently create multiple variables of the same type simultaneously by listing them with commas between their names, like `"type variable1, variable_2, variable_3, variable4."`
 
 ## Naming Conventions
 
@@ -18,7 +18,7 @@ Let's delve into the second aspect of variable declaration in C, where we define
 
 1. Names can consist of uppercase and lowercase letters, numbers, and underscores.
 2. The initial character must be a letter, either uppercase or lowercase.
-3. Avoid using keywords as the entire name; for instance, "int" is not allowed, but "int_count" is acceptable.
+3. Avoid using keywords as the entire name; for instance, `"int"` is not allowed, but `"int_count"` is acceptable.
 
 When crafting variable names, adhere to these rules to ensure compliance. Now, let's explore a practical example to reinforce these concepts:
 
@@ -41,4 +41,4 @@ int main() {
 }
 ```
 
-Your task is to identify and rectify the errors in the code on the right. Once corrected, the output window should display "Hello World." Let's ensure the variables align with the specified naming conventions.
+Your task is to identify and rectify the errors in the code. Once corrected, the output window should display "Hello World." Let's ensure the variables align with the specified naming conventions.
