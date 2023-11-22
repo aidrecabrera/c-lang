@@ -14,17 +14,31 @@ As a valuable tip, you can efficiently create multiple variables of the same typ
 
 ## Naming Conventions
 
-Let's delve into the second aspect of variable declaration in C, which involves specifying the type followed by the variable name. However, C imposes certain restrictions on variable names that need to be adhered to.
+Let's delve into the second aspect of variable declaration in C, where we define the type followed by the variable name. However, C imposes certain constraints on variable naming. Take note of the following guidelines:
 
-Variable names can consist of upper and lower case letters, numbers, and underscores. The initial character must be a letter, whether upper or lower case. It's crucial to avoid using keywords as the complete name; for instance, "int" is prohibited, but "int_count" would be a permissible variable name. Remember these rules when crafting names for your variables.
+1. Names can consist of uppercase and lowercase letters, numbers, and underscores.
+2. The initial character must be a letter, either uppercase or lowercase.
+3. Avoid using keywords as the entire name; for instance, "int" is not allowed, but "int_count" is acceptable.
 
-```
-#include<stdio.h>
+When crafting variable names, adhere to these rules to ensure compliance. Now, let's explore a practical example to reinforce these concepts:
+
+```c
+#include <stdio.h>
+
 int main() {
-  int number!;
-  int test value;
-  int 1example;
-  float int;
-  printf("Hello World!\n");
+    // Correct variable declarations
+    int myVariable;
+    float price_per_unit;
+    char userName_123;
+
+    // Incorrect declarations (fix these to make the code compile)
+    int 3rdAttempt;  // Error: Initial character must be a letter
+    double totalAmount$;  // Error: '$' is not allowed
+    char break;  // Error: 'break' is a keyword
+
+    printf("Hello World\n");
+    return 0;
 }
 ```
+
+Your task is to identify and rectify the errors in the code on the right. Once corrected, the output window should display "Hello World." Let's ensure the variables align with the specified naming conventions.
