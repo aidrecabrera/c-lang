@@ -229,7 +229,7 @@ Adhering to a best practice, it is recommended to employ all uppercase letters w
 
 ```c
 const int DAYSINWEEK = 7;
-
+```
 
 # 07-type-casting.md
 
@@ -255,7 +255,7 @@ However, this can be risky, as the variable's runtime values may not be implicit
 
 Alternatively, explicit conversion involves specifying the desired type explicitly. For instance, in our example, we could modify the line a = b to a = (int)b. This way, even if b had a value other than 3.0, like 3.2, we instruct the compiler to perform the conversion, setting a to 3.
 
-An intriguing aspect of type casting involves converting between characters and numeric types.
+An intriguing aspect of typecasting involves converting between characters and numeric types.
 
 Similar to previous cases, caution is necessary in setting up such conversions. Internally, a char does not store the character itself but rather its corresponding numeric value, such as 97 for lowercase 'a' and 65 for uppercase 'A'.
 
